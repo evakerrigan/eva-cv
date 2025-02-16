@@ -7,17 +7,20 @@
   margin: 0 auto;
   padding: 2rem;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* background-color: #e8a3a8; */
 }
 
 body {
   margin: 0 auto;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  max-width: 1280px;
   min-height: 100vh;
   color: #444;
   text-align: left;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* opacity: 0.1;  */
 }
 
 a {
