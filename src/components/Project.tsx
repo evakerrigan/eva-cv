@@ -12,7 +12,7 @@ export const Project = () => {
         <li className="project-item">
           <div className="project-image-nda">NDA</div>
           <div className="project-details-wrapper">
-            <h4>Payment System, платежная система</h4>
+            <h4>Paykong, (Payment System) платежная система</h4>
             <p>Работа над тремя приложениями для проведения платежей.</p>
             <ul className="project-details">
               <li>Меняла дизайн приложения</li>
@@ -25,6 +25,14 @@ export const Project = () => {
               <li>Решала баги</li>
               <li>Избавлялась от красных ошибок в консоль логах</li>
             </ul>
+
+            <p>
+              Стек 1: React, AntDesign, Redux, SWR, Typescript, Tailwind
+              <br />
+              Стек 2: React, Chakra, Redux, SWR, Typescript, Tailwind
+              <br />
+              Стек 3: Next, moduleCSS, Typescript
+            </p>
           </div>
         </li>
         <li className="project-item">
@@ -33,12 +41,19 @@ export const Project = () => {
           </div>
           <div className="project-details-wrapper">
             <h4>Happy Mappy, социальная сеть для разработчиков</h4>
-            <p></p>
-            <ul className="project-details">
+            <p>
+              Закрытая социальная сеть для разработчиков с авторизацией через
+              GitHub. Показывает на карте местонахождение пользователей. Можно
+              фильтровать пользователей по стеку технологий. Написать им в
+              телеграм. Создана для поиска новых друзей или новых работников по
+              местонахождению в нужном городе или стране.
+            </p>
+            <p>Стек: React, Nest, Postgres, Prisma, Typescript</p>
+            {/* <ul className="project-details">
               <li></li>
               <li></li>
               <li></li>
-            </ul>
+            </ul> */}
           </div>
         </li>
         <li className="project-item">
@@ -47,12 +62,17 @@ export const Project = () => {
           </div>
           <div className="project-details-wrapper">
             <h4>Multi, приложение для обучения умножению детей</h4>
-            <p></p>
-            <ul className="project-details">
+            <p>
+              Приложение, которое помогает детям начальных классов выучить
+              таблицу умножения, благодаря многократным повторениям. Создано для
+              облегчения жизни родителям )
+            </p>
+            {/* <ul className="project-details">
               <li></li>
               <li></li>
               <li></li>
-            </ul>
+            </ul> */}
+            <p>Стек: Javascript</p>
           </div>
         </li>
         <li className="project-item">
@@ -60,13 +80,13 @@ export const Project = () => {
             <img src={exoticFruit} alt="project" />
           </div>
           <div className="project-details-wrapper">
-            <h4>Exotic Fruit, магазин экзотических фруктов</h4>
-            <p></p>
+            <h4>Exotic Fruit, онлайн магазин экзотических фруктов</h4>
             <ul className="project-details">
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>Авторизация пользователей</li>
+              <li>Корзина</li>
+              <li>Пагинация</li>
             </ul>
+            <p>Стек: Next, Redux, Typescript</p>
           </div>
         </li>
         <li className="project-item">
@@ -75,12 +95,19 @@ export const Project = () => {
           </div>
           <div className="project-details-wrapper">
             <h4>Eva Images, каталог фотографий для рекламы</h4>
-            <p></p>
+            <p>
+              Авторский каталог фотографий, продаваемых на различных
+              фотостоковых площадках, но от одного автора. Приложение портфолио.
+            </p>
             <ul className="project-details">
-              <li></li>
-              <li></li>
-              <li></li>
+              <li>
+                Авторизация только для автора, для возможности добавления своих
+                фото в базу приложения
+              </li>
+              <li>Фильтрация на бекенде по тегам</li>
+              <li>Пагинация</li>
             </ul>
+            <p>Стек: Next, Zustand, Typescript</p>
           </div>
         </li>
         <li className="project-item">
@@ -88,13 +115,21 @@ export const Project = () => {
             <img src={mem} alt="project" />
           </div>
           <div className="project-details-wrapper">
-            <h4>Приложение для проведения собеседований по мемам</h4>
-            <p></p>
-            <ul className="project-details">
+            <h4>
+              Meme Check, Приложение для проведения собеседований по мемам
+            </h4>
+            <p>
+              В приложении выбирается уровень, на кого проводить собеседование:
+              джун, миддл, сеньор. И в зависимости от выбора выдаются рэндом
+              мемы смешные, которые собеседуемый должен объяснить что в них
+              смешного и о чём речь.
+            </p>
+            <p>Стек: Typescript, Express</p>
+            {/* <ul className="project-details">
               <li></li>
               <li></li>
               <li></li>
-            </ul>
+            </ul> */}
           </div>
         </li>
         {/* <li className="project-item">
@@ -117,7 +152,8 @@ export const Project = () => {
             <h4>Happy Fan, стриминговый сервис</h4>
             <p>
               Разработка приложения для потокового вещания с использованием
-              React.
+              React. С личными страницами пользователей, галереей фотографий и
+              чатами.
             </p>
             <ul className="project-details">
               <li>Создание новых компонентов в проекте</li>
@@ -126,6 +162,7 @@ export const Project = () => {
                 Адаптация используемых внешних библиотек под особенности проекта
               </li>
             </ul>
+            <p>Стек: React, Redux, Webpack</p>
           </div>
         </li>
       </ol>
