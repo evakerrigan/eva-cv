@@ -76,7 +76,7 @@ h2 {
   width: 27%;
   height: 500px;
   display: block;
-  background-image: url("./assets/1.jpg");
+  background-image: url("./assets/avatar.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -145,6 +145,7 @@ h2 {
   align-items: center;
   font-weight: 500;
   color: #000;
+  background-color: #eee;
 }
 
 .project-image {
