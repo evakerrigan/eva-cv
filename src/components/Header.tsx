@@ -10,7 +10,7 @@ export const Header = () => {
         <div className="header-wrapper-small-size">
           <div className="header-wrapper-small-size-avatar"></div>
           <div className="header-wrapper-small-size-text">
-            <h1 className="header-name">Dmitro Shustak</h1>
+            <h1 className="header-name">Dmytro Shustak</h1>
             <h2 className="header-title">Frontend Developer</h2>
           </div>
           <div className="header-wrapper-mobile-size-avatar"></div>
