@@ -101,6 +101,7 @@ export const Project = () => {
               <li>Авторизация пользователей</li>
               <li>Корзина</li>
               <li>Пагинация</li>
+              <li>Тестирование Jest</li>
               <li>Работа с API карт</li>
             </ul>
             <p>Стек: Next, Redux, Typescript</p>
@@ -126,6 +127,7 @@ export const Project = () => {
               </li>
               <li>Фильтрация на бекенде по тегам</li>
               <li>Пагинация</li>
+              <li>Тестирование Vitest</li>
             </ul>
             <p>Стек: Next, Zustand, Typescript</p>
           </div>
