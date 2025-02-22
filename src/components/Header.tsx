@@ -7,8 +7,13 @@ export const Header = () => {
         {/* <img src={avatar} alt="avatar" className="header-avatar" /> */}
       </div>
       <div className="header-wrapper">
-        <h1 className="header-name">Kseniia Liubasova</h1>
-        <h2 className="header-title">Фронтенд разработчик</h2>
+        <div className="header-wrapper-small-size">
+          <div className="header-wrapper-small-size-avatar"></div>
+          <div className="header-wrapper-small-size-text">
+            <h1 className="header-name">Kseniia Liubasova</h1>
+            <h2 className="header-title">Фронтенд разработчик</h2>
+          </div>
+        </div>
         <p>
           Я фронтенд-разработчик с опытом работы около 4 лет, специализируюсь на
           разработке приложений на React. Имею дизайнерское образование и
