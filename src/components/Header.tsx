@@ -13,6 +13,7 @@ export const Header = () => {
             <h1 className="header-name">Kseniia Liubasova</h1>
             <h2 className="header-title">Фронтенд разработчик</h2>
           </div>
+          <div className="header-wrapper-mobile-size-avatar"></div>
         </div>
         <p>
           Я фронтенд-разработчик с опытом работы около 4 лет, специализируюсь на

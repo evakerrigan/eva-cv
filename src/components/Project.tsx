@@ -12,7 +12,10 @@ export const Project = () => {
         <li className="project-item">
           <div className="project-image-nda">NDA</div>
           <div className="project-details-wrapper">
-            <h4>Paykong, (Payment System) платежная система</h4>
+            <div className="project-details-wrapper-mobile">
+              <div className="project-image-nda-mobile">NDA</div>
+              <h4>Paykong, (Payment System) платежная система</h4>
+            </div>
             <p>Работа над тремя приложениями для проведения платежей.</p>
             <ul className="project-details">
               <li>Меняла дизайн приложения</li>
@@ -40,7 +43,10 @@ export const Project = () => {
             <img src={happyMappy} />
           </div>
           <div className="project-details-wrapper">
-            <h4>Happy Mappy, социальная сеть для разработчиков</h4>
+            <div className="project-image-mobile">
+              <img src={happyMappy} />
+              <h4>Happy Mappy, социальная сеть для разработчиков</h4>
+            </div>
             <p>
               Закрытая социальная сеть для разработчиков с авторизацией через
               GitHub. Показывает на карте местонахождение пользователей. Можно
@@ -61,7 +67,10 @@ export const Project = () => {
             <img src={multi} alt="project" />
           </div>
           <div className="project-details-wrapper">
-            <h4>Multi, приложение для обучения умножению детей</h4>
+            <div className="project-image-mobile">
+              <img src={multi} alt="project" />
+              <h4>Multi, приложение для обучения умножению детей</h4>
+            </div>
             <p>
               Приложение, которое помогает детям начальных классов выучить
               таблицу умножения, благодаря многократным повторениям. Создано для
@@ -80,11 +89,19 @@ export const Project = () => {
             <img src={exoticFruit} alt="project" />
           </div>
           <div className="project-details-wrapper">
-            <h4>Exotic Fruit, онлайн магазин экзотических фруктов</h4>
+            <div className="project-image-mobile">
+              <img src={exoticFruit} alt="project" />
+              <h4>Exotic Fruit, онлайн магазин экзотических фруктов</h4>
+            </div>
+            <p>
+              Онлайн магазин фруктов с рассчетом стоимости доставки по городу c
+              отображением на карте
+            </p>
             <ul className="project-details">
               <li>Авторизация пользователей</li>
               <li>Корзина</li>
               <li>Пагинация</li>
+              <li>Работа с API карт</li>
             </ul>
             <p>Стек: Next, Redux, Typescript</p>
           </div>
@@ -94,7 +111,10 @@ export const Project = () => {
             <img src={evaImages} alt="project" />
           </div>
           <div className="project-details-wrapper">
-            <h4>Eva Images, каталог фотографий для рекламы</h4>
+            <div className="project-image-mobile">
+              <img src={evaImages} alt="project" />
+              <h4>Eva Images, каталог фотографий для рекламы</h4>
+            </div>
             <p>
               Авторский каталог фотографий, продаваемых на различных
               фотостоковых площадках, но от одного автора. Приложение портфолио.
@@ -115,9 +135,12 @@ export const Project = () => {
             <img src={mem} alt="project" />
           </div>
           <div className="project-details-wrapper">
-            <h4>
-              Meme Check, Приложение для проведения собеседований по мемам
-            </h4>
+            <div className="project-image-mobile">
+              <img src={mem} alt="project" />
+              <h4>
+                Meme Check, Приложение для проведения собеседований по мемам
+              </h4>
+            </div>
             <p>
               В приложении выбирается уровень, на кого проводить собеседование:
               джун, миддл, сеньор. И в зависимости от выбора выдаются рэндом
@@ -149,7 +172,10 @@ export const Project = () => {
         <li className="project-item">
           <div className="project-image-nda">NDA</div>
           <div className="project-details-wrapper">
-            <h4>Happy Fan, стриминговый сервис</h4>
+            <div className="project-details-wrapper-mobile">
+              <div className="project-image-nda-mobile">NDA</div>
+              <h4>Happy Fan, стриминговый сервис</h4>
+            </div>
             <p>
               Разработка приложения для потокового вещания с использованием
               React. С личными страницами пользователей, галереей фотографий и
