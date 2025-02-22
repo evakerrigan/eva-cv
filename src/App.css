@@ -237,6 +237,7 @@ h2 {
 @media (max-width: 900px) {
   .header-wrapper-small-size-avatar {
     width: 50%;
+    border: 2px solid #fff;
   }
   .header-wrapper-small-size-text {
     width: 50%;
