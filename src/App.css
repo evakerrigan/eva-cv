@@ -371,6 +371,7 @@ h2 {
   }
 
   .project-image-mobile img {
+    display: block;
     width: 100px;
     border: 1px solid #ccc;
     height: fit-content;
