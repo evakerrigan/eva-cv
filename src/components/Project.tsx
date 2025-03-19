@@ -128,7 +128,8 @@ export const Project = () => {
               <li>Тестирование Jest</li>
               <li>Работа с API карт</li>
             </ul>
-            <p>Стек: Next, Redux, Typescript</p>
+            {/* <p>Стек: Next, Redux, Typescript</p> */}
+            <p>Стек: React, Typescript</p>
           </div>
         </li>
         <li className="project-item">
@@ -158,7 +159,8 @@ export const Project = () => {
               <li>Пагинация</li>
               <li>Тестирование Vitest</li>
             </ul>
-            <p>Стек: Next, Zustand, Typescript</p>
+            {/* <p>Стек: Next, Zustand, Typescript</p> */}
+            <p>Стек: React, Typescript, Redux</p>
           </div>
         </li>
         {/* <li className="project-item">
