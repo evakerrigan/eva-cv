@@ -1,8 +1,9 @@
 import happyMappy from "../assets/projects/project-happy-mappy.jpg";
 import exoticFruit from "../assets/projects/project-exotic-fruit.jpg";
 import evaImages from "../assets/projects/project-eva-images.jpg";
-import mem from "../assets/projects/project-mem.jpg";
+// import mem from "../assets/projects/project-mem.jpg";
 import multi from "../assets/projects/project-multi.jpg";
+import paykong from "../assets/projects/project-paykong.jpg";
 
 export const Project = () => {
   return (
@@ -10,10 +11,15 @@ export const Project = () => {
       <h2>Проекты</h2>
       <ol className="project-list">
         <li className="project-item">
-          <div className="project-image-nda">NDA</div>
+          {/* <div className="project-image-nda">NDA</div> */}
+          <div className="project-image">
+            <img src={paykong} />
+          </div>
           <div className="project-details-wrapper">
-            <div className="project-details-wrapper-mobile">
-              <div className="project-image-nda-mobile">NDA</div>
+            {/* <div className="project-details-wrapper-mobile"> */}
+            {/* <div className="project-image-nda-mobile">NDA</div> */}
+            <div className="project-image-mobile">
+              <img src={paykong} />
               <h4>Paykong, (Payment System) платежная система</h4>
             </div>
             <p>Работа над тремя приложениями для проведения платежей.</p>
@@ -45,7 +51,12 @@ export const Project = () => {
           <div className="project-details-wrapper">
             <div className="project-image-mobile">
               <img src={happyMappy} />
-              <h4>Happy Mappy, социальная сеть для разработчиков</h4>
+              <h4>
+                <a href="https://rs-club.vercel.app/" target="_blank">
+                  Happy Mappy
+                </a>
+                , социальная сеть для разработчиков
+              </h4>
             </div>
             <p>
               Закрытая социальная сеть для разработчиков с авторизацией через
@@ -69,7 +80,12 @@ export const Project = () => {
           <div className="project-details-wrapper">
             <div className="project-image-mobile">
               <img src={multi} alt="project" />
-              <h4>Multi, приложение для обучения умножению детей</h4>
+              <h4>
+                <a href="http://multiply.su/" target="_blank">
+                  Multi
+                </a>
+                , приложение для обучения умножению детей
+              </h4>
             </div>
             <p>
               Приложение, которое помогает детям начальных классов выучить
@@ -91,7 +107,15 @@ export const Project = () => {
           <div className="project-details-wrapper">
             <div className="project-image-mobile">
               <img src={exoticFruit} alt="project" />
-              <h4>Exotic Fruit, онлайн магазин экзотических фруктов</h4>
+              <h4>
+                <a
+                  href="https://evakerrigan.github.io/exotic-fruit/"
+                  target="_blank"
+                >
+                  Exotic Fruit
+                </a>
+                , онлайн магазин экзотических фруктов
+              </h4>
             </div>
             <p>
               Онлайн магазин фруктов с рассчетом стоимости доставки по городу c
@@ -114,7 +138,12 @@ export const Project = () => {
           <div className="project-details-wrapper">
             <div className="project-image-mobile">
               <img src={evaImages} alt="project" />
-              <h4>Eva Images, каталог фотографий для рекламы</h4>
+              <h4>
+                <a href="https://eva-images.netlify.app/" target="_blank">
+                  Eva Images
+                </a>
+                , каталог фотографий для рекламы
+              </h4>
             </div>
             <p>
               Авторский каталог фотографий, продаваемых на различных
@@ -132,7 +161,7 @@ export const Project = () => {
             <p>Стек: Next, Zustand, Typescript</p>
           </div>
         </li>
-        <li className="project-item">
+        {/* <li className="project-item">
           <div className="project-image">
             <img src={mem} alt="project" />
           </div>
@@ -149,14 +178,9 @@ export const Project = () => {
               мемы смешные, которые собеседуемый должен объяснить что в них
               смешного и о чём речь.
             </p>
-            <p>Стек: Typescript, Express</p>
-            {/* <ul className="project-details">
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul> */}
+            <p>Стек: Typescript, Express</p>           
           </div>
-        </li>
+        </li> */}
         {/* <li className="project-item">
           <div className="project-image">
             <img src="/assets/projects/project.jpg" alt="project" />
@@ -176,7 +200,7 @@ export const Project = () => {
           <div className="project-details-wrapper">
             <div className="project-details-wrapper-mobile">
               <div className="project-image-nda-mobile">NDA</div>
-              <h4>Happy Fan, стриминговый сервис</h4>
+              <h4>Happy Fans, стриминговый сервис</h4>
             </div>
             <p>
               Разработка приложения для потокового вещания с использованием

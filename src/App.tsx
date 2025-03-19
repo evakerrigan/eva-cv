@@ -1,5 +1,13 @@
 import "./App.css";
-import { Contacts, Project, Header, Skills, Education, Footer } from "./components";
+import {
+  Contacts,
+  Project,
+  Header,
+  Skills,
+  Education,
+  Footer,
+  Companies,
+} from "./components";
 
 function App() {
   return (
@@ -13,6 +21,7 @@ function App() {
             <Education />
           </div>
           <div className="right-block">
+            <Companies />
             <Project />
           </div>
         </div>
