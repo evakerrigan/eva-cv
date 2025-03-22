@@ -81,7 +81,7 @@ export const Project = () => {
             <div className="project-image-mobile">
               <img src={multi} alt="project" />
               <h4>
-                <a href="http://multiply.su/" target="_blank">
+                <a href="https://easymultiply.com/" target="_blank">
                   Multi
                 </a>
                 , приложение для обучения умножению детей
