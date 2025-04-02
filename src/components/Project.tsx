@@ -13,13 +13,13 @@ export const Project = () => {
         <li className="project-item">
           {/* <div className="project-image-nda">NDA</div> */}
           <div className="project-image">
-            <img src={paykong} />
+            <img src={paykong} alt="project" />
           </div>
           <div className="project-details-wrapper">
             {/* <div className="project-details-wrapper-mobile"> */}
             {/* <div className="project-image-nda-mobile">NDA</div> */}
             <div className="project-image-mobile">
-              <img src={paykong} />
+              <img src={paykong} alt="project" />
               <h4>Paykong, (Payment System) платежная система</h4>
             </div>
             <p>Работа над тремя приложениями для проведения платежей.</p>
@@ -46,11 +46,11 @@ export const Project = () => {
         </li>
         <li className="project-item">
           <div className="project-image">
-            <img src={happyMappy} />
+            <img src={happyMappy} alt="project" />
           </div>
           <div className="project-details-wrapper">
             <div className="project-image-mobile">
-              <img src={happyMappy} />
+              <img src={happyMappy} alt="project" />
               <h4>
                 <a href="https://rs-club.vercel.app/" target="_blank">
                   Happy Mappy
