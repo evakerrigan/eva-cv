@@ -140,7 +140,7 @@ export const Project = () => {
             <div className="project-image-mobile">
               <img src={evaImages} alt="project" />
               <h4>
-                <a href="https://eva-images.netlify.app/" target="_blank">
+                <a href="https://evakerrigan.github.io/eva-images/" target="_blank">
                   Eva Images
                 </a>
                 , каталог фотографий для рекламы
