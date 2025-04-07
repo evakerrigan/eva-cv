@@ -52,7 +52,7 @@ export const Project = () => {
             <div className="project-image-mobile">
               <img src={happyMappy} alt="project" />
               <h4>
-                <a href="https://rs-club.vercel.app/" target="_blank">
+                <a href="https://it-club-vert.vercel.app/" target="_blank">
                   Happy Mappy
                 </a>
                 , социальная сеть для разработчиков
