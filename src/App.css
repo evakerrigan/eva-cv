@@ -6,8 +6,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  /* background-color: #e8a3a8; */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;  
 }
 
 body {
@@ -16,16 +15,18 @@ body {
   min-height: 100vh;
   color: #444;
   text-align: left;
-  /* background-image: url("./assets/bg.png"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* opacity: 0.1;  */
 }
 
 a {
   color: #e8a3a8;
   text-decoration: none;
+}
+
+a.contacts {
+  font-weight: bold;
 }
 
 h2 {
@@ -57,19 +58,11 @@ h2 {
 }
 
 .right-block {
-  padding: 40px 60px;
-}
-
-.project-wrapper {
-  /* padding: 40px 60px; */
+  padding: 40px 0 40px 60px;
 }
 
 .left-block {
   padding: 40px 0px;
-}
-
-.contacts-wrapper {
-  /* padding: 40px 0px; */
 }
 
 .header-wrapper-small-size {

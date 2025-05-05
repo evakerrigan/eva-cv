@@ -6,7 +6,7 @@ export const Companies = () => {
         <li className="companies-item">
           <h4>Paykong, (Payment System) платежная система (2023-2025)</h4>
           <p>
-            React, Next, AntDesign, Chakra, moduleCSS, Tailwind,Redux, SWR,
+            React, Next, AntDesign, Chakra, moduleCSS, Tailwind, Redux, SWR,
             Typescript. Разработка новых модулей приложения, рефакторинг старых
             модулей. Меняла дизайн приложения. Обновляла библиотеки.
             Разрабатывала и внедряла темную тему. Делала адаптив. Меняли
@@ -21,19 +21,6 @@ export const Companies = () => {
             >
               paykong.io
             </a>
-          </p>
-        </li>
-        <li className="companies-item">
-          <h4>
-            <a href="https://www.xdsoft.ru/" target="_blank">
-              XD soft
-            </a>
-            , разработка программного обеспечения (2023)
-          </h4>
-          <p>
-            Next, Chart.js, Typescript, Tailwind. Разработка государственных
-            порталов. Преобразование отчетных данных в графики на библиотеке
-            Chart.js.
           </p>
         </li>
         <li className="companies-item">
@@ -64,15 +51,6 @@ export const Companies = () => {
             Дизайн и верстка сайтов с нуля. На cms opencart, cms wordpress, cms
             modx.
           </p>
-        </li>
-        <li className="companies-item">
-          <h4>
-            <a href="https://fingli.ru/" target="_blank">
-              Fingli
-            </a>
-            , веб-студия (2014)
-          </h4>
-          <p>Дизайн, редизайн и верстка сайтов.</p>
         </li>
       </ul>
     </div>
