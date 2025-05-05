@@ -1,0 +1,55 @@
+export interface Contact {
+  title: string;
+  link: { url: string; text: string }[];
+}
+
+export const contacts: Contact[] = [
+  {
+    title: "Phone",
+    link: [
+      {
+        url: "tel:+79313151738",
+        text: "+7 931 315 17 38",
+      },
+    ],
+  },
+  {
+    title: "Email",
+    link: [
+      {
+        url: "mailto:evakerrigan@gmail.com",
+        text: "evakerrigan@gmail.com",
+      },
+    ],
+  },
+  {
+    title: "IT",
+    link: [
+      {
+        url: "https://github.com/evakerrigan",
+        text: "github: evakerrigan",
+      },
+      {
+        url: "https://www.codewars.com/users/evakerrigan",
+        text: "codewars: evakerrigan",
+      },
+    ],
+  },
+  {
+    title: "Social",
+    link: [
+      {
+        url: "http://t.me/EvaKerrigan",
+        text: "telegram: EvaKerrigan",
+      },
+      {
+        url: "https://www.linkedin.com/in/evakerrigan",
+        text: "linkedin: evakerrigan",
+      },
+      {
+        url: "https://spb.hh.ru/resume/786e614aff0484b8820039ed1f463169587a70",
+        text: "hh: Ксения Любасова",
+      },
+    ],
+  },
+];
