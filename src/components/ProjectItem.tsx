@@ -1,9 +1,9 @@
 import { Project } from "../data/workProjects";
-import happyMappy from "../assets/projects/project-happy-mappy.jpg";
-import multi from "../assets/projects/project-multi.jpg";
-import paykongAdmin from "../assets/projects/project-paykong-admin.jpg";
-import paykongAgent from "../assets/projects/project-paykong-agent.jpg";
-import paykongPay from "../assets/projects/project-paykong-pay.jpg";
+import happyMappy from "../assets/projects/happy-mappy.jpg";
+import multi from "../assets/projects/multi.jpg";
+import paykongAdmin from "../assets/projects/paykong-admin.jpg";
+import paykongAgent from "../assets/projects/paykong-agent.jpg";
+import paykongPay from "../assets/projects/paykong-pay.jpg";
 
 interface ProjectItemProps {
   project: Project;
