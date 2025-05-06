@@ -9,7 +9,7 @@ export const otherProjects: Project[] = [
     description:
       "Закрытая социальная сеть для разработчиков с авторизацией через GitHub. Показывает на карте местонахождение пользователей. Можно фильтровать пользователей по стеку технологий. Написать им в телеграм. Создана для поиска новых друзей или новых работников по местонахождению в нужном городе или стране.",
     details: [],
-    stack: ["Стек: React, Nest, Postgres, Prisma, Typescript"],
+    stack: ["React", "Nest", "Postgres", "Prisma", "Typescript"],
     link: "https://it-club-vert.vercel.app/",
   },
   {
@@ -20,7 +20,7 @@ export const otherProjects: Project[] = [
     description:
       "Приложение, которое помогает детям начальных классов выучить таблицу умножения, благодаря многократным повторениям. Создано для облегчения жизни родителям )",
     details: [],
-    stack: ["Стек: Javascript"],
+    stack: ["Javascript"],
     link: "https://easymultiply.com/",
   },
 ];

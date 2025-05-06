@@ -212,6 +212,23 @@ h2 {
   text-decoration: none;
 }
 
+.project-details li {
+  margin-bottom: 15px;
+  line-height: 18px;
+}
+
+.project-title-stack {
+  display: inline-block;
+}
+
+.project-stack {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #aaa;
+  color: #fff;
+  padding: 0 5px;
+}
+
 @media (max-width: 1200px) {
   .header-wrapper {
     width: 100%;
@@ -367,6 +384,7 @@ h2 {
     color: #000;
     background-color: #eee;
   }
+
   .project-image {
     display: none;
   }

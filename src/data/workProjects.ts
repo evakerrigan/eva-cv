@@ -29,7 +29,7 @@ export const workProjects: Project[] = [
       "Активно занималась поиском и устранением багов, а также избавлялась от ошибок и предупреждений в консоли браузера.",
       "Взаимодействовала с дизайнером и QA, вносила свои предложения по улучшению интерфейса.",
     ],
-    stack: ["Стек 1: React, Typescript, Redux, SWR, AntDesign,  Tailwind"],
+    stack: ["React", "Typescript", "Redux", "SWR", "AntDesign", "Tailwind"],
   },
   {
     id: 1,
@@ -42,7 +42,7 @@ export const workProjects: Project[] = [
       "Реализовала функционал пополнения депозита с выбором кошелька, генерацией QR-кода для оплаты, отображением статуса и таймера, а также копированием реквизитов.",
       "Добавление новых страниц с новым функционалом.",
     ],
-    stack: ["Стек 2: React, Typescript, Redux, SWR, Chakra, Tailwind"],
+    stack: ["React", "Typescript", "Redux", "SWR", "Chakra", "Tailwind"],
   },
   {
     id: 1,
@@ -51,7 +51,7 @@ export const workProjects: Project[] = [
     titleEtc: ", (Payment System) платежная система, клиентское приложение",
     description: "Приложение для оплаты.",
     details: ["Добавление новых платежных методов."],
-    stack: ["Стек 3: Next, Typescript, moduleCSS"],
+    stack: ["Next", "Typescript", "moduleCSS"],
   },
   {
     id: 2,
@@ -66,6 +66,6 @@ export const workProjects: Project[] = [
       "Адаптация используемых внешних библиотек под особенности проекта.",
       "Настройка webpack.",
     ],
-    stack: ["Стек: React, Redux, Webpack"],
+    stack: ["React", "Redux", "Webpack"],
   },
 ];

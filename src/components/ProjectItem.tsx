@@ -75,8 +75,11 @@ export const ProjectItem = ({ project }: ProjectItemProps) => {
             ))}
           </ul>
         )}
+        <p className="project-title-stack">Стек:&nbsp;</p>
         {project.stack.map((tech, index) => (
-          <p key={index}>{tech}</p>
+          <p className="project-stack" key={index}>
+            {tech}
+          </p>
         ))}
       </div>
     </li>
