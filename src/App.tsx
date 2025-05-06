@@ -13,23 +13,21 @@ import {
 
 function App() {
   return (
-    <>
-      <div className="app-container">
-        <Header />
-        <div className="app-wrapper">
-          <div className="left-block">
-            <Skills />
-            <Contacts />
-            <Education />
-          </div>
-          <div className="right-block">
-            <Companies />
-            <Project />
-          </div>
+    <div className="app-container">
+      <Header />
+      <div className="app-wrapper">
+        <div className="left-block">
+          <Skills />
+          <Contacts />
+          <Education />
         </div>
-        <Footer />
+        <div className="right-block">
+          <Companies />
+          <Project />
+        </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
 
