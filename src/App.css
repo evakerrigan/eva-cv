@@ -371,6 +371,11 @@ h2 {
     display: none;
   }
 
+  .project-details li {
+    margin-bottom: 13px;
+    line-height: 18px;
+  }
+
   .project-image-mobile {
     width: 100%;
     margin-right: 20px;
