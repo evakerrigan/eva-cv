@@ -212,6 +212,10 @@ h2 {
   text-decoration: none;
 }
 
+.project-details {
+  padding: 0;
+}
+
 .project-details li {
   margin-bottom: 15px;
   line-height: 18px;
@@ -227,6 +231,12 @@ h2 {
   background-color: #aaa;
   color: #fff;
   padding: 0 5px;
+}
+
+.project-description {
+  border-bottom: 1px solid #444;
+  padding-bottom: 16px;
+  font-style: italic;
 }
 
 @media (max-width: 1200px) {

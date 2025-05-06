@@ -67,7 +67,7 @@ export const ProjectItem = ({ project }: ProjectItemProps) => {
             </h4>
           </div>
         )}
-        <p>{project.description}</p>
+        <p className="project-description">{project.description}</p>
         {project.details.length > 0 && (
           <ul className="project-details">
             {project.details.map((detail, index) => (
