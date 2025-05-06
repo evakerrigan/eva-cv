@@ -55,6 +55,7 @@ h2 {
 .header-wrapper {
   width: 73%;
   padding: 20px 60px;
+  box-sizing: border-box;
 }
 
 .right-block {
@@ -78,6 +79,7 @@ h2 {
   background-image: url("./assets/avatar.jpg");
   background-size: cover;
   background-position: center;
+  box-sizing: border-box;
 }
 
 .header-wrapper-small-size-avatar {
@@ -107,10 +109,12 @@ h2 {
 
 .left-block {
   width: 27%;
+  box-sizing: border-box;
 }
 
 .right-block {
   width: 73%;
+  box-sizing: border-box;
 }
 
 .contacts-list {
@@ -181,7 +185,7 @@ h2 {
 
 .skills-list strong {
   font-weight: 400;
-  background-color: #aaa;
+  background-color: #a0a3aa;
   color: #fff;
   padding: 0 5px;
 }
@@ -228,7 +232,7 @@ h2 {
 .project-stack {
   display: inline-block;
   margin-right: 10px;
-  background-color: #aaa;
+  background-color: #a0a3aa;
   color: #fff;
   padding: 0 5px;
 }
