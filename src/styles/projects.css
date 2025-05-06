@@ -1,0 +1,125 @@
+.project-list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.project-item {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.project-list h4 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.project-image-nda {
+  display: flex;
+  width: 100px;
+  min-width: 100px;
+  height: 75px;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+  font-family: Ruthie, cursive;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #000;
+  background-color: #eee;
+}
+
+.project-image-nda-mobile {
+  display: none;
+}
+
+.project-image {
+  width: 100px;
+  min-width: 100px;
+  margin-right: 20px;
+}
+
+.project-image img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.project-image-mobile img {
+  display: none;
+}
+
+.project-details {
+  padding: 0;
+}
+
+.project-details li {
+  margin-bottom: 15px;
+  line-height: 18px;
+}
+
+.project-title-stack {
+  display: inline-block;
+}
+
+.project-stack {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #a0a3aa;
+  color: #fff;
+  padding: 0 5px;
+}
+
+.project-description {
+  border-bottom: 1px solid #444;
+  padding-bottom: 16px;
+  font-style: italic;
+}
+
+@media (max-width: 450px) {
+  .project-details-wrapper-mobile {
+    display: flex;
+    align-items: center;
+  }
+  .project-image-nda {
+    display: none;
+  }
+  .project-image-nda-mobile {
+    display: flex;
+    width: 100px;
+    min-width: 100px;
+    height: 75px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    font-family: Ruthie, cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #000;
+    background-color: #eee;
+  }
+
+  .project-image {
+    display: none;
+  }
+
+  .project-details li {
+    margin-bottom: 13px;
+    line-height: 18px;
+  }
+
+  .project-image-mobile {
+    width: 100%;
+    margin-right: 20px;
+    display: flex;
+  }
+
+  .project-image-mobile img {
+    display: block;
+    width: 100px;
+    border: 1px solid #ccc;
+    height: fit-content;
+    margin-right: 20px;
+  }
+}

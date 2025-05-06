@@ -1,0 +1,16 @@
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.skills-list strong {
+  font-weight: 400;
+  background-color: #a0a3aa;
+  color: #fff;
+  padding: 0 5px;
+}

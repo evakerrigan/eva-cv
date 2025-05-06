@@ -1,5 +1,6 @@
 import { ContactItem } from "./ContactsItem";
 import { contacts } from "../data/contacts";
+import "../styles/contacts.css";
 
 export const Contacts = () => {
   return (

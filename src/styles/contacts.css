@@ -1,0 +1,15 @@
+.contacts-list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+@media (max-width: 900px) {
+  .contacts-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contacts-list li {
+    width: 50%;
+  }
+}

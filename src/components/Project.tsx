@@ -1,6 +1,7 @@
 import { ProjectItem } from './ProjectItem';
 import { workProjects } from '../data/workProjects';
 import { otherProjects } from '../data/otherProjects';
+import '../styles/projects.css';
 
 export const Project = () => {
   return (

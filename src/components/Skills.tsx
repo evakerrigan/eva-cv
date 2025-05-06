@@ -1,4 +1,5 @@
 import { skills } from "../data/skills";
+import "../styles/skills.css";
 
 export const Skills = () => {
   const formatSkillText = (text: string, highlightedWords: string[]) => {

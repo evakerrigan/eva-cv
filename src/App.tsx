@@ -1,4 +1,6 @@
-import "./App.css";
+import "./styles/global.css";
+import "./styles/layout.css";
+import "./styles/general.css";
 import {
   Contacts,
   Project,

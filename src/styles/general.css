@@ -1,0 +1,17 @@
+.button-download {
+  padding: 9px 25px 12px 25px;
+  color: #444;
+  display: block;
+  font-style: italic;
+  background-color: #f1d2d3;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: end;
+}
+
+.button-download:hover {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Gurajada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ruthie&display=swap");
+
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  color: #444;
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #e8a3a8;
+  text-decoration: none;
+}
+
+a.contacts {
+  font-weight: bold;
+}
+
+h2 {
+  background-color: #f1d2d3;
+}
+
+.wrapper {
+  padding-bottom: 40px;
+}
+
+.app-container {
+  width: 100%;
+  padding: 5%;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 520px) {
+  #root {
+    padding: 0;
+  }
+}

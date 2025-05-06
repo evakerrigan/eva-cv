@@ -1,4 +1,5 @@
 // import avatar from "../assets/1.jpg";
+import "../styles/header.css";
 
 export const Header = () => {
   return (

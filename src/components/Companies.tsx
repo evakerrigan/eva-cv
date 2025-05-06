@@ -1,3 +1,5 @@
+import "../styles/companies.css";
+
 export const Companies = () => {
   return (
     <div className="companies-wrapper wrapper">
