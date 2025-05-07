@@ -51,6 +51,7 @@
 
 .project-details {
   padding: 0;
+  list-style-type: circle;
 }
 
 .project-details li {

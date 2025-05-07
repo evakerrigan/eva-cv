@@ -4,13 +4,11 @@
 
 .left-block {
   width: 27%;
-  box-sizing: border-box;
   padding: 40px 0px;
 }
 
 .right-block {
   width: 73%;
-  box-sizing: border-box;
   padding: 40px 0 40px 60px;
 }
 

@@ -8,7 +8,6 @@
 .header-wrapper {
   width: 73%;
   padding: 20px 60px;
-  box-sizing: border-box;
 }
 
 .header-wrapper-small-size {
@@ -24,7 +23,6 @@
   background-image: url("../assets/avatar.jpg");
   background-size: cover;
   background-position: center;
-  box-sizing: border-box;
 }
 
 .header-wrapper-small-size-avatar {
@@ -41,11 +39,20 @@
   font-size: 80px;
   line-height: 0.1;
   font-weight: 500;
+  margin: 54px 0;
+  overflow-wrap: normal;
 }
 
 .header-title {
   line-height: 0.1;
   padding-bottom: 30px;
+  margin: 20px 0;
+}
+
+.header-list {
+  padding: 0 0 0 40px;
+  list-style-type: decimal;
+  margin: 16px 0;
 }
 
 @media (max-width: 1200px) {

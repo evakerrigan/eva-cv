@@ -1,4 +1,3 @@
-// import avatar from "../assets/1.jpg";
 import "../styles/header.css";
 
 export const Header = () => {
@@ -24,7 +23,7 @@ export const Header = () => {
           перфекционист. Целеустремлённая. И люблю то, чем занимаюсь.
         </p>
         <p>Моими основными целями на будущее являются:</p>
-        <ol>
+        <ol className="header-list">
           <li>
             Углубление знаний в области React и связанных технологий до уровня
             Senior.

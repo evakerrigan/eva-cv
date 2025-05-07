@@ -22,7 +22,6 @@ body {
 
 a {
   color: #e8a3a8;
-  text-decoration: none;
 }
 
 a.contacts {
@@ -31,6 +30,19 @@ a.contacts {
 
 h2 {
   background-color: #f1d2d3;
+  margin: 20px 0;
+}
+
+h3 {
+  margin: 19px 0;
+}
+
+h4 {
+  margin: 21px 0;
+} 
+
+p {
+  margin: 16px 0;
 }
 
 .wrapper {
@@ -41,7 +53,6 @@ h2 {
   width: 100%;
   padding: 5%;
   background-color: #fff;
-  box-sizing: border-box;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 

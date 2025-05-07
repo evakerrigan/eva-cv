@@ -1,3 +1,5 @@
+import "../styles/education.css";
+
 export const Education = () => {
   return (
     <div className="education-wrapper wrapper">
