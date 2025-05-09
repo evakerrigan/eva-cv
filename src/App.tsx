@@ -2,6 +2,7 @@ import "./styles/reset.css";
 import "./styles/global.css";
 import "./styles/layout.css";
 import "./styles/general.css";
+import "./styles/variables.css";
 import {
   Contacts,
   Project,

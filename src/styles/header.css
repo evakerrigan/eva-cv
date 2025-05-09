@@ -6,8 +6,29 @@
 }
 
 .header-wrapper {
+  position: relative;
   width: 73%;
   padding: 20px 60px;
+}
+
+.settings-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.button-header-settings {
+  width: 40px;
+  height: 40px;
+  background-image: url(../assets/icon-settings.png);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.button-header-settings:hover {
+  transform: rotate(45deg);
 }
 
 .header-wrapper-small-size {

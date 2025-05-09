@@ -1,10 +1,13 @@
 import "../styles/header.css";
+import { useState } from "react";
+import { ColorMenu } from "./ColorMenu";
 
 export const Header = () => {
+  const [isColorMenuOpen, setIsColorMenuOpen] = useState(false);
+
   return (
     <div className="header-container">
       <div className="header-avatar-wrapper">
-        {/* <img src={avatar} alt="avatar" className="header-avatar" /> */}
       </div>
       <div className="header-wrapper">
         <div className="header-wrapper-small-size">
@@ -35,9 +38,20 @@ export const Header = () => {
           </li>
           <li>
             Освоение продвинутых практик разработки, таких как оптимизация
-            производительности, тестирование и применение паттернов проектирования.
+            производительности, тестирование и применение паттернов
+            проектирования.
           </li>
         </ol>
+        <div className="settings-container">
+          <button
+            className="button-header-settings"
+            onClick={() => setIsColorMenuOpen(!isColorMenuOpen)}
+          />
+          <ColorMenu
+            isOpen={isColorMenuOpen}
+            onClose={() => setIsColorMenuOpen(false)}
+          />
+        </div>
       </div>
     </div>
   );
