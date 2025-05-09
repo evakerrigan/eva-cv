@@ -5,9 +5,14 @@ import "../styles/colorMenu.css";
 interface ColorMenuProps {
   isOpen: boolean;
   onClose: () => void;
+  vertical?: boolean;
 }
 
-export const ColorMenu = ({ isOpen, onClose }: ColorMenuProps) => {
+export const ColorMenu = ({
+  isOpen,
+  onClose,
+  vertical = false,
+}: ColorMenuProps) => {
   const { theme, setTheme } = useTheme();
   const menuRef = useRef<HTMLDivElement>(null);
 
@@ -38,32 +43,39 @@ export const ColorMenu = ({ isOpen, onClose }: ColorMenuProps) => {
   if (!isOpen) return null;
 
   return (
-    <div className="color-menu" ref={menuRef}>
-      {themes.map((themeOption, index) => {
-        const angle = index * (360 / (themes.length - 1)) * (Math.PI / 180);
-        const radius = 20;
-        const x = Math.cos(angle) * radius;
-        const y = Math.sin(angle) * radius;
-
-        return (
-          <button
-            key={themeOption.id}
-            className={`color-button ${
-              theme === themeOption.id ? "active" : ""
-            }`}
-            onClick={() => {
-              setTheme(themeOption.id as "pink" | "silver" | "blue");
-              onClose();
-            }}
-            style={{
-              transform: `translate(calc(${x}px), calc(${y}px))`,
-              backgroundColor: themeOption.color,
-            }}
-          >
-            {themeOption.label}
-          </button>
-        );
-      })}
+    <div className={`color-menu${vertical ? " vertical" : ""}`} ref={menuRef}>
+      {themes.map((themeOption, index) => (
+        <button
+          key={themeOption.id}
+          className={`color-button ${theme === themeOption.id ? "active" : ""}`}
+          onClick={() => {
+            setTheme(
+              themeOption.id as "pink" | "silver" | "blue" | "dark" | "green"
+            );
+            onClose();
+          }}
+          style={
+            vertical
+              ? {
+                  backgroundColor: themeOption.color,
+                  position: "static",
+                  margin: "0 0 8px 0",
+                }
+              : {
+                  transform: `translate(calc(50% + ${
+                    Math.cos(index * (360 / themes.length) * (Math.PI / 180)) *
+                    60
+                  }px), calc(50% + ${
+                    Math.sin(index * (360 / themes.length) * (Math.PI / 180)) *
+                    60
+                  }px))`,
+                  backgroundColor: themeOption.color,
+                }
+          }
+        >
+          {themeOption.label}
+        </button>
+      ))}
     </div>
   );
 };

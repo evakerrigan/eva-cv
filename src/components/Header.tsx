@@ -7,8 +7,7 @@ export const Header = () => {
 
   return (
     <div className="header-container">
-      <div className="header-avatar-wrapper">
-      </div>
+      <div className="header-avatar-wrapper"></div>
       <div className="header-wrapper">
         <div className="header-wrapper-small-size">
           <div className="header-wrapper-small-size-avatar"></div>
@@ -42,14 +41,17 @@ export const Header = () => {
             проектирования.
           </li>
         </ol>
-        <div className="settings-container">
-          <button
-            className="button-header-settings"
-            onClick={() => setIsColorMenuOpen(!isColorMenuOpen)}
-          />
+        <div className="theme-tab-container">
+          <div
+            className="theme-tab"
+            onClick={() => setIsColorMenuOpen((v) => !v)}
+          >
+            <span style={{ fontWeight: 700, fontSize: 18 }}>🎨</span>
+          </div>
           <ColorMenu
             isOpen={isColorMenuOpen}
             onClose={() => setIsColorMenuOpen(false)}
+            vertical
           />
         </div>
       </div>
