@@ -3,22 +3,53 @@
   --primary-color: #e8a3a8;
   --secondary-color: #f1d2d3;
   --text-color: #444;
+  --header-text-color: #444;
+  --title-text-color: #444;
   --background-color: #fff;
   --link-color: #e8a3a8;
+  --link-color-hover: #fac5ca;
 }
 
 [data-theme="silver"] {
   --primary-color: #a0a3aa;
   --secondary-color: #c2c5cc;
   --text-color: #333;
+  --header-text-color: #333;
+  --title-text-color: #333;
   --background-color: #fff;
   --link-color: #a0a3aa;
+  --link-color-hover: #c2c5cc;
 }
 
 [data-theme="blue"] {
   --primary-color: #b3d4fc;
   --secondary-color: #b3d4fc;
   --text-color: #2c3e50;
+  --header-text-color: #2c3e50;
+  --title-text-color: #2c3e50;
   --background-color: #fff;
   --link-color: #4a90e2;
+  --link-color-hover: #6cb2f4;
+}
+
+[data-theme="green"] {
+  --primary-color: #046c65;
+  --secondary-color: #046c65;
+  --text-color: #444;
+  --header-text-color: #fff;
+  --title-text-color: #fff;
+  --background-color: #fff;
+  --link-color: #046c65;
+  --link-color-hover: #268e87;
+}
+
+[data-theme="dark"] {
+  --primary-color: #000;
+  --secondary-color: #333;
+  --text-color: #aaa;
+  --header-text-color: #aaa;
+  --title-text-color: #aaa;
+  --background-color: #333;
+  --link-color: #ddd;
+  --link-color-hover: #fff;
 }

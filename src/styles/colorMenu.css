@@ -1,0 +1,40 @@
+.color-menu {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 40px;
+  height: 40px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  z-index: 10;
+  pointer-events: none;
+  border: 1px solid red;
+}
+
+.color-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  pointer-events: auto;
+}
+
+.color-button:hover {
+  /* transform: scale(1.1) !important; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.color-button.active {
+  /* border: 3px solid #333;
+  transform: scale(1.1) !important; */
+  display: none;
+}
