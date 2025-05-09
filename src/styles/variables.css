@@ -1,5 +1,4 @@
 :root {
-  /* Pink theme (default) */
   --primary-color: #e8a3a8;
   --secondary-color: #f1d2d3;
   --text-color: #444;
@@ -44,7 +43,7 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #000;
+  --primary-color: #111;
   --secondary-color: #333;
   --text-color: #aaa;
   --header-text-color: #aaa;
