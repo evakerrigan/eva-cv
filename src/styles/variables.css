@@ -1,0 +1,24 @@
+:root {
+  /* Pink theme (default) */
+  --primary-color: #e8a3a8;
+  --secondary-color: #f1d2d3;
+  --text-color: #444;
+  --background-color: #fff;
+  --link-color: #e8a3a8;
+}
+
+[data-theme="whitegold"] {
+  --primary-color: #d4af37;
+  --secondary-color: #f5e6c3;
+  --text-color: #333;
+  --background-color: #fff;
+  --link-color: #d4af37;
+}
+
+[data-theme="blue"] {
+  --primary-color: #4a90e2;
+  --secondary-color: #b3d4fc;
+  --text-color: #2c3e50;
+  --background-color: #fff;
+  --link-color: #4a90e2;
+}

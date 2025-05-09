@@ -32,7 +32,7 @@ export const workProjects: Project[] = [
     stack: ["React", "Typescript", "Redux", "SWR", "AntDesign", "Tailwind"],
   },
   {
-    id: 1,
+    id: 2,
     image: "paykong-agent",
     title: "Paykong",
     titleEtc: ", (Payment System) платежная система, панель агентов",
@@ -45,7 +45,7 @@ export const workProjects: Project[] = [
     stack: ["React", "Typescript", "Redux", "SWR", "Chakra", "Tailwind"],
   },
   {
-    id: 1,
+    id: 3,
     image: "paykong-pay",
     title: "Paykong",
     titleEtc: ", (Payment System) платежная система, клиентское приложение",
@@ -54,7 +54,7 @@ export const workProjects: Project[] = [
     stack: ["Next", "Typescript", "moduleCSS"],
   },
   {
-    id: 2,
+    id: 4,
     image: "nda",
     title: "Happy Fans",
     titleEtc: ", стриминговый сервис",

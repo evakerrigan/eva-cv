@@ -7,12 +7,11 @@ interface Props {
 
 export const ContactItem: React.FC<Props> = ({ contact }) => {
   return (
-    <li>
+    <li key={contact.title}>
       <h3>{contact.title}</h3>
       {contact.link.map((link, index) => (
-        <>
+        <div key={`${contact.title}-${index}`}>
           <a
-            key={index}
             className="contacts"
             href={link.url}
             target="_blank"
@@ -21,7 +20,7 @@ export const ContactItem: React.FC<Props> = ({ contact }) => {
             {link.text}
           </a>
           <br />
-        </>
+        </div>
       ))}
     </li>
   );

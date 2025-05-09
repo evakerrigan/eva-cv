@@ -1,9 +1,9 @@
 .button-download {
   padding: 9px 25px 12px 25px;
-  color: #444;
+  color: var(--text-color);
   display: block;
   font-style: italic;
-  background-color: #f1d2d3;
+  background-color: var(--secondary-color);
 }
 
 .footer-container {

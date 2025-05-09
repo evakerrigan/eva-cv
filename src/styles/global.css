@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   display: flex;
   min-height: 100vh;
-  color: #444;
+  color: var(--text-color);
   text-align: left;
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #e8a3a8;
+  color: var(--link-color);
 }
 
 a.contacts {
@@ -29,7 +29,7 @@ a.contacts {
 }
 
 h2 {
-  background-color: #f1d2d3;
+  background-color: var(--secondary-color);
   margin: 20px 0;
 }
 
@@ -39,7 +39,7 @@ h3 {
 
 h4 {
   margin: 21px 0;
-} 
+}
 
 p {
   margin: 16px 0;
@@ -52,7 +52,7 @@ p {
 .app-container {
   width: 100%;
   padding: 5%;
-  background-color: #fff;
+  background-color: var(--background-color);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 

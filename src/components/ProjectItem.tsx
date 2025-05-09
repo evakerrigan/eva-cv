@@ -71,13 +71,13 @@ export const ProjectItem = ({ project }: ProjectItemProps) => {
         {project.details.length > 0 && (
           <ul className="project-details">
             {project.details.map((detail, index) => (
-              <li key={index}>{detail}</li>
+              <li key={`${project.id}-detail-${index}`}>{detail}</li>
             ))}
           </ul>
         )}
         <p className="project-title-stack">Стек:&nbsp;</p>
         {project.stack.map((tech, index) => (
-          <p className="project-stack" key={index}>
+          <p className="project-stack" key={`${project.id}-stack-${index}`}>
             {tech}
           </p>
         ))}
