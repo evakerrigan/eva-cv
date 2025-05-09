@@ -3,7 +3,7 @@ import "../styles/education.css";
 export const Education = () => {
   return (
     <div className="education-wrapper wrapper">
-      <h2>Образование</h2>
+      <h2 className="layout-title">Образование</h2>
       <ul className="education-list">
         <li>ВЫСШЕЕ, факультет физики, физическая информатика, КемГУ</li>
         <li>Веб-дизайн, РГТЭУ</li>

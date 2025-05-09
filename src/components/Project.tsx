@@ -6,13 +6,13 @@ import '../styles/projects.css';
 export const Project = () => {
   return (
     <div className="project-wrapper wrapper">
-      <h2>Рабочие проекты</h2>
+      <h2 className="layout-title">Рабочие проекты</h2>
       <ol className="project-list">
         {workProjects.map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}
       </ol>
-      <h2>Другие проекты</h2>
+      <h2 className="layout-title">Другие проекты</h2>
       <ol className="project-list">
         {otherProjects.map((project) => (
           <ProjectItem key={project.id} project={project} />

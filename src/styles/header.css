@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: #f1d2d3;
+  background-color: var(--secondary-color);
 }
 
 .header-wrapper {

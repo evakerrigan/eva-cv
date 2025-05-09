@@ -3,7 +3,7 @@ import "../styles/companies.css";
 export const Companies = () => {
   return (
     <div className="companies-wrapper wrapper">
-      <h2>Компании</h2>
+      <h2 className="layout-title">Компании</h2>
       <ul className="companies-list">
         <li className="companies-item">
           <h4>Paykong, (Payment System) платежная система (2023-2025)</h4>

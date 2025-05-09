@@ -12,6 +12,10 @@
   padding: 40px 0 40px 60px;
 }
 
+.layout-title {
+  background-color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   .app-wrapper {
     flex-wrap: wrap;

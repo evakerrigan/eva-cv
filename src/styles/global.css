@@ -28,8 +28,7 @@ a.contacts {
   font-weight: bold;
 }
 
-h2 {
-  background-color: var(--secondary-color);
+h2 {  
   margin: 20px 0;
 }
 
