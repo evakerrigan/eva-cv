@@ -1,6 +1,7 @@
 import { useTheme } from "../hooks/useTheme";
 import { useEffect, useRef } from "react";
 import "../styles/colorMenu.css";
+import { Theme } from "../context/themeContext";
 
 interface ColorMenuProps {
   isOpen: boolean;
@@ -26,7 +27,12 @@ export const ColorMenu = ({
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+      const themeTab = document.querySelector(".theme-tab");
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target as Node) &&
+        !themeTab?.contains(event.target as Node)
+      ) {
         onClose();
       }
     };
@@ -49,9 +55,7 @@ export const ColorMenu = ({
           key={themeOption.id}
           className={`color-button ${theme === themeOption.id ? "active" : ""}`}
           onClick={() => {
-            setTheme(
-              themeOption.id as "pink" | "silver" | "blue" | "dark" | "green"
-            );
+            setTheme(themeOption.id as Theme);
             onClose();
           }}
           style={

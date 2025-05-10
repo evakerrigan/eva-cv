@@ -7,12 +7,19 @@ export function ThemeSwitcher() {
 
   return (
     <div className="theme-tab-container">
-      <div className="theme-tab" onClick={() => setIsColorMenuOpen((v) => !v)}>
+      <div
+        className="theme-tab"
+        onClick={() => {
+          setIsColorMenuOpen((v) => !v);
+        }}
+      >
         <div className="theme-tab-icon"></div>
       </div>
       <ColorMenu
         isOpen={isColorMenuOpen}
-        onClose={() => setIsColorMenuOpen(false)}
+        onClose={() => {
+          setIsColorMenuOpen(false);
+        }}
         vertical
       />
     </div>
