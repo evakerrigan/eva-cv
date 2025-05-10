@@ -11,6 +11,7 @@ import {
   Education,
   Footer,
   Companies,
+  ThemeSwitcher,
 } from "./components";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      <ThemeSwitcher />
     </div>
   );
 }

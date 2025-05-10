@@ -1,10 +1,6 @@
 import "../styles/header.css";
-import { useState } from "react";
-import { ColorMenu } from "./ColorMenu";
 
 export const Header = () => {
-  const [isColorMenuOpen, setIsColorMenuOpen] = useState(false);
-
   return (
     <div className="header-container">
       <div className="header-avatar-wrapper"></div>
@@ -41,19 +37,6 @@ export const Header = () => {
             проектирования.
           </li>
         </ol>
-        <div className="theme-tab-container">
-          <div
-            className="theme-tab"
-            onClick={() => setIsColorMenuOpen((v) => !v)}
-          >
-            <span style={{ fontWeight: 700, fontSize: 18 }}>🎨</span>
-          </div>
-          <ColorMenu
-            isOpen={isColorMenuOpen}
-            onClose={() => setIsColorMenuOpen(false)}
-            vertical
-          />
-        </div>
       </div>
     </div>
   );
