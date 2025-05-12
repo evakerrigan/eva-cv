@@ -6,10 +6,36 @@ interface Props {
 }
 
 export function ThemeProvider({ children }: Props) {
-  const [theme, setTheme] = useState<Theme>("pink");
+  const getInitialTheme = (): Theme => {
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const themeParam = urlParams.get("theme");
+
+      if (
+        themeParam &&
+        ["pink", "silver", "blue", "dark", "green"].includes(themeParam)
+      ) {
+        return themeParam as Theme;
+      }
+    } catch (error) {
+      console.error("Ошибка при получении темы из URL:", error);
+    }
+
+    return "pink";
+  };
+
+  const [theme, setTheme] = useState<Theme>(getInitialTheme());
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
+
+    try {
+      const url = new URL(window.location.href);
+      url.searchParams.set("theme", theme);
+      window.history.replaceState({}, "", url.toString());
+    } catch (error) {
+      console.error("Ошибка при обновлении URL:", error);
+    }
   }, [theme]);
 
   return (
