@@ -52,3 +52,14 @@
   --link-color: #ddd;
   --link-color-hover: #fff;
 }
+
+[data-theme="wildberries"] {
+  --primary-color: #7f30e3;
+  --secondary-color: #7f30e3;
+  --text-color: #444;
+  --header-text-color: #fff;
+  --title-text-color: #fff;
+  --background-color: #fff;
+  --link-color: #7f30e3;
+  --link-color-hover: #9d52ff;
+}
