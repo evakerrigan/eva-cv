@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="/eva-cv/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Kseniia Liubasova, Frontend Developer">
+    <meta name="description" content="Kseniia Liubasova, Frontend Developer" />
     <title>Kseniia Liubasova | Frontend Developer</title>
     <meta
       property="og:title"
@@ -22,9 +22,27 @@
     />
     <meta property="og:image:width" content="968" />
     <meta property="og:image:height" content="504" />
-    <script type="module" crossorigin src="/eva-cv/assets/index-vN24SG0A.js"></script>
-    <link rel="stylesheet" crossorigin href="/eva-cv/assets/index-R9fRNwaW.css">
+    <script>
+      (function () {
+        try {
+          const urlParams = new URLSearchParams(window.location.search);
+          const themeParam = urlParams.get("theme");
+
+          if (
+            themeParam &&
+            ["pink", "silver", "blue", "dark", "green", "wildberries"].includes(themeParam)
+          ) {
+            document.documentElement.setAttribute("data-theme", themeParam);
+          }
+        } catch (error) {
+          console.error("Ошибка при установке начальной темы:", error);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/eva-cv/assets/index-ohDXR03j.js"></script>
+    <link rel="stylesheet" crossorigin href="/eva-cv/assets/index-CM8DNi2_.css">
   </head>
+
   <body>
     <div id="root"></div>
   </body>
