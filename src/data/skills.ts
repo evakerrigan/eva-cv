@@ -33,16 +33,20 @@ export const skills: Skill[] = [
     highlightedWords: ["SWR"],
   },
   {
-    text: "Инструменты для проектирования: Figma и Photoshop",
-    highlightedWords: ["Figma", "Photoshop"],
+    text: "Контроль версий Git и GitHub",
+    highlightedWords: ["Git", "GitHub"],
   },
   {
-    text: "Контроль версий Git",
-    highlightedWords: ["Git"],
+    text: "REST API: Интеграция с внешними сервисами",
+    highlightedWords: ["REST API"],
   },
   {
     text: "Jira для эффективного управления проектами",
     highlightedWords: ["Jira"],
+  },
+  {
+    text: "Инструменты для проектирования: Figma и Photoshop",
+    highlightedWords: ["Figma", "Photoshop"],
   },
   {
     text: "Pixel Perfect для обеспечения точности дизайна",
@@ -51,5 +55,13 @@ export const skills: Skill[] = [
   {
     text: "Адаптивный дизайн: Создание интерфейсов, корректно отображающихся на различных устройствах.",
     highlightedWords: ["Адаптивный дизайн"],
+  },
+  {
+    text: "Jest для тестирования компонентов",
+    highlightedWords: ["Jest"],
+  },
+  {
+    text: "Настройка сборки приложений с помощью Webpack и Vite",
+    highlightedWords: ["Webpack", "Vite"],
   },
 ];
