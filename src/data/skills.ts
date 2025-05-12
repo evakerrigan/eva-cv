@@ -33,8 +33,8 @@ export const skills: Skill[] = [
     highlightedWords: ["SWR"],
   },
   {
-    text: "Контроль версий Git и GitHub",
-    highlightedWords: ["Git", "GitHub"],
+    text: "Контроль версий Git, GitHub, GitLab",
+    highlightedWords: ["GitHub", "GitLab", "Git"],
   },
   {
     text: "REST API: Интеграция с внешними сервисами",
