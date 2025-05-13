@@ -23,6 +23,7 @@ export const ColorMenu = ({
     { id: "blue", label: "", color: "#b3d4fc" },
     { id: "dark", label: "", color: "#333" },
     { id: "green", label: "", color: "#046c65" },
+    { id: "azure", label: "", color: "#22baec" },
   ];
 
   useEffect(() => {

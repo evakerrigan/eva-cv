@@ -13,7 +13,7 @@ export function ThemeProvider({ children }: Props) {
 
       if (
         themeParam &&
-        ["pink", "silver", "blue", "dark", "green", "wildberries"].includes(themeParam)
+        ["pink", "silver", "blue", "dark", "green", "wildberries", "azure"].includes(themeParam)
       ) {
         return themeParam as Theme;
       }

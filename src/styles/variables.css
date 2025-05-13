@@ -63,3 +63,14 @@
   --link-color: #7f30e3;
   --link-color-hover: #9d52ff;
 }
+
+[data-theme="azure"] {
+  --primary-color: #22baec;
+  --secondary-color: #22baec;
+  --text-color: #444;
+  --header-text-color: #fff;
+  --title-text-color: #fff;
+  --background-color: #fff;
+  --link-color: #22baec;
+  --link-color-hover: #44dcfe;
+}
