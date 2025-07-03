@@ -136,6 +136,12 @@
   }
 }
 
+@media (max-width: 660px) {
+  .header-name {
+    font-size: 60px;
+  }
+}
+
 @media (max-width: 550px) {
   .header-wrapper-small-size {
     align-items: center;
