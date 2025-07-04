@@ -41,9 +41,9 @@ export const Companies = () => {
         <li className="companies-item">
           <h4>
             <a href="https://www.roseltorg.ru/" target="_blank">
-              Росэлторг
+              ВТБ
             </a>
-            &nbsp;(группа втб), электронные торги (2015-2016)
+            &nbsp;, электронные торги (2015-2019)
           </h4>
           <p>Создание страниц корпоративного сайта и верстка email-рассылок.</p>
         </li>
