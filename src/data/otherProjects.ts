@@ -20,7 +20,7 @@ export const otherProjects: Project[] = [
     description:
       "Приложение, которое помогает детям начальных классов выучить таблицу умножения, благодаря многократным повторениям. Создано для облегчения жизни родителям )",
     details: [],
-    stack: ["Javascript"],
+    stack: ["Javascript", "Typescript"],
     link: "https://easymultiply.com/",
   },
 ];
