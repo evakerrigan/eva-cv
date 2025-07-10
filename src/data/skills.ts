@@ -64,4 +64,12 @@ export const skills: Skill[] = [
     text: "Настройка сборки приложений с помощью Webpack и Vite",
     highlightedWords: ["Webpack", "Vite"],
   },
+  {
+    text: "Docker: Контейнеризация приложений для обеспечения консистентной среды разработки и деплоя",
+    highlightedWords: ["Docker"],
+  },
+  {
+    text: "Module Federation: Создание микрофронтенд архитектуры для масштабируемых приложений",
+    highlightedWords: ["Module Federation"],
+  },
 ];
