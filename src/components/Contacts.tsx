@@ -1,6 +1,9 @@
 import { ContactItem } from "./ContactsItem";
-import { contacts } from "../data/contacts";
+import contactsData from "../data/contacts.json";
+import { Contact } from "../data/types";
 import "../styles/contacts.css";
+
+const contacts: Contact[] = contactsData;
 
 export const Contacts = () => {
   return (

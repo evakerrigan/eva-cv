@@ -1,4 +1,4 @@
-import { Project } from "../data/workProjects";
+import { Project } from "../data/types";
 import happyMappy from "../assets/projects/happy-mappy.jpg";
 import multi from "../assets/projects/multi.jpg";
 import paykongAdmin from "../assets/projects/paykong-admin.jpg";

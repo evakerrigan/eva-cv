@@ -1,5 +1,8 @@
-import { skills } from "../data/skills";
+import skillsData from "../data/skills.json";
+import { Skill } from "../data/types";
 import "../styles/skills.css";
+
+const skills: Skill[] = skillsData;
 
 export const Skills = () => {
   const formatSkillText = (text: string, highlightedWords: string[]) => {

@@ -1,7 +1,11 @@
 import { ProjectItem } from './ProjectItem';
-import { workProjects } from '../data/workProjects';
-import { otherProjects } from '../data/otherProjects';
+import workProjectsData from '../data/workProjects.json';
+import otherProjectsData from '../data/otherProjects.json';
+import { Project as ProjectType } from '../data/types';
 import '../styles/projects.css';
+
+const workProjects: ProjectType[] = workProjectsData;
+const otherProjects: ProjectType[] = otherProjectsData;
 
 export const Project = () => {
   return (
