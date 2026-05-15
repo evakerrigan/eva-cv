@@ -6,6 +6,34 @@ export const Companies = () => {
       <h2 className="layout-title">Компании</h2>
       <ul className="companies-list">
         <li className="companies-item">
+          <h4>
+            Nbcompany, e-commerce проекты:{" "}
+            <a href="https://www.iport.ru" target="_blank">
+              iPort
+            </a>
+            ,{" "}
+            <a href="https://www.samsungstore.ru" target="_blank">
+              Samsung
+            </a>
+            ,{" "}
+            <a href="https://www.h-stores.ru" target="_blank">
+              Huawei
+            </a>
+            ,{" "}
+            <a href="https://www.micenter.ru" target="_blank">
+              Xiaomi
+            </a>{" "}
+            (2025-2026)
+          </h4>
+          <p>
+            React, Next, Typescript, Redux Toolkit, RTK Query, CSS Modules,
+            react-hook-form, REST API, JSON-LD/Schema.org. Разработка и
+            поддержка 4 e-commerce проектов, рефакторинг UI, внедрение
+            Trade-in модуля, SEO-микроразметки, валидации форм и улучшение
+            мобильного UX. За 7 месяцев закрыла 140+ задач.
+          </p>
+        </li>
+        <li className="companies-item">
           <h4>Paykong, (Payment System) платежная система (2023-2025)</h4>
           <p>
             React, Next, AntDesign, Chakra, moduleCSS, Tailwind, Redux, SWR,

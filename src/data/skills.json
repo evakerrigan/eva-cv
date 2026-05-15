@@ -16,12 +16,24 @@
     "highlightedWords": ["Redux"]
   },
   {
+    "text": "Redux Toolkit и RTK Query для управления состоянием и API-запросами",
+    "highlightedWords": ["Redux Toolkit", "RTK Query"]
+  },
+  {
     "text": "UI-фреймворк Ant Design для создания качественных компонентов",
     "highlightedWords": ["Ant Design"]
   },
   {
     "text": "Chakra UI и Tailwind CSS для стилизации",
     "highlightedWords": ["Chakra UI", "Tailwind CSS"]
+  },
+  {
+    "text": "CSS Modules для изолированной стилизации компонентов",
+    "highlightedWords": ["CSS Modules"]
+  },
+  {
+    "text": "react-hook-form для разработки и валидации форм",
+    "highlightedWords": ["react-hook-form"]
   },
   {
     "text": "SWR: Управление данными и кэширование в React-приложениях",
@@ -34,6 +46,10 @@
   {
     "text": "REST API: Интеграция с внешними сервисами",
     "highlightedWords": ["REST API"]
+  },
+  {
+    "text": "JSON-LD/Schema.org: внедрение SEO-микроразметки для e-commerce проектов",
+    "highlightedWords": ["JSON-LD/Schema.org", "SEO"]
   },
   {
     "text": "Jira для эффективного управления проектами",

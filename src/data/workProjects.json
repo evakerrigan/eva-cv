@@ -1,6 +1,32 @@
 [
   {
     "id": 1,
+    "image": "nbcom",
+    "title": "Nbcompany",
+    "titleEtc": ", e-commerce проекты",
+    "description": "Разрабатывала 4 e-commerce проекта на Next.js: iPort (https://www.iport.ru), Samsung (https://www.samsungstore.ru), Huawei (https://www.h-stores.ru), Xiaomi (https://www.micenter.ru). За 7 месяцев закрыла 140+ задач (23,5% коммитов команды).",
+    "details": [
+      "Провела масштабный рефакторинг: миграция с Ant Design на кастомную UI-библиотеку из 20+ компонентов, внедрение react-hook-form.",
+      "Разработала full-cycle Trade-in модуль с интеграцией сервиса Civimart: оценка устройств, автоприменение скидки, cookie-персистентность.",
+      "Внедрила SEO-микроразметку Schema.org (Breadcrumbs, Product) на всех страницах.",
+      "Спроектировала модульную библиотеку валидации email, валидации и маски phone и интегрировала её в 10+ форм в 3 проектах: оформление заказа, профиль, подписка.",
+      "Создала с нуля каталог уценённых товаров, карточки товара с предзаказом NPI и промо-страницу с таймером.",
+      "Устранила системные баги сортировки и фильтрации, улучшила мобильный UX: sticky-панель корзины, адаптивные карточки, адаптивное меню в шапке."
+    ],
+    "stack": [
+      "React",
+      "Next",
+      "Typescript",
+      "Redux Toolkit",
+      "RTK Query",
+      "CSS Modules",
+      "react-hook-form",
+      "REST API",
+      "JSON-LD/Schema.org"
+    ]
+  },
+  {
+    "id": 2,
     "image": "paykong-admin",
     "title": "Paykong",
     "titleEtc": ", финансовая платформа, административная панель",
@@ -18,7 +44,7 @@
     "stack": ["React", "Typescript", "Redux", "SWR", "AntDesign", "Tailwind"]
   },
   {
-    "id": 2,
+    "id": 3,
     "image": "paykong-agent",
     "title": "Paykong",
     "titleEtc": ", (Payment System) платежная система, панель агентов",
@@ -31,7 +57,7 @@
     "stack": ["React", "Typescript", "Redux", "SWR", "Chakra", "Tailwind"]
   },
   {
-    "id": 3,
+    "id": 4,
     "image": "paykong-pay",
     "title": "Paykong",
     "titleEtc": ", (Payment System) платежная система, клиентское приложение",
@@ -40,7 +66,7 @@
     "stack": ["Next", "Typescript", "moduleCSS"]
   },
   {
-    "id": 4,
+    "id": 5,
     "image": "nda",
     "title": "Happy Fans",
     "titleEtc": ", стриминговый сервис",

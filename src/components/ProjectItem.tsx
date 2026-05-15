@@ -1,6 +1,7 @@
 import { Project } from "../data/types";
 import happyMappy from "../assets/projects/happy-mappy.jpg";
 import multi from "../assets/projects/multi.jpg";
+import nbcom from "../assets/projects/nbcom.jpg";
 import paykongAdmin from "../assets/projects/paykong-admin.jpg";
 import paykongAgent from "../assets/projects/paykong-agent.jpg";
 import paykongPay from "../assets/projects/paykong-pay.jpg";
@@ -15,6 +16,8 @@ const getImage = (imageName: string) => {
       return happyMappy;
     case "multi":
       return multi;
+    case "nbcom":
+      return nbcom;
     case "paykong-admin":
       return paykongAdmin;
     case "paykong-agent":
@@ -75,12 +78,14 @@ export const ProjectItem = ({ project }: ProjectItemProps) => {
             ))}
           </ul>
         )}
-        <p className="project-title-stack">Стек:&nbsp;</p>
-        {project.stack.map((tech, index) => (
-          <p className="project-stack" key={`${project.id}-stack-${index}`}>
-            {tech}
-          </p>
-        ))}
+        <div className="project-stack-wrapper">
+          <p className="project-title-stack">Стек:&nbsp;</p>
+          {project.stack.map((tech, index) => (
+            <p className="project-stack" key={`${project.id}-stack-${index}`}>
+              {tech}
+            </p>
+          ))}
+        </div>
       </div>
     </li>
   );

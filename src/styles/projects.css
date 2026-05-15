@@ -63,6 +63,14 @@
   display: inline-block;
 }
 
+.project-stack-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-stack-wrapper p {
+  margin: 5px 5px;
+}
+
 .project-stack {
   display: inline-block;
   margin-right: 10px;
