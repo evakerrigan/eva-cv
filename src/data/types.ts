@@ -17,4 +17,6 @@ export interface Project {
   details: string[];
   stack: string[];
   link?: string;
+  // Проект остаётся в данных, но не выводится на страницу.
+  hidden?: boolean;
 }

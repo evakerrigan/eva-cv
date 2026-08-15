@@ -2,6 +2,7 @@ import { Project } from "../data/types";
 import happyMappy from "../assets/projects/happy-mappy.jpg";
 import multi from "../assets/projects/multi.jpg";
 import nbcom from "../assets/projects/nbcom.jpg";
+import taskcoin from "../assets/projects/taskcoin.jpg";
 import paykongAdmin from "../assets/projects/paykong-admin.jpg";
 import paykongAgent from "../assets/projects/paykong-agent.jpg";
 import paykongPay from "../assets/projects/paykong-pay.jpg";
@@ -18,6 +19,8 @@ const getImage = (imageName: string) => {
       return multi;
     case "nbcom":
       return nbcom;
+    case "taskcoin":
+      return taskcoin;
     case "paykong-admin":
       return paykongAdmin;
     case "paykong-agent":

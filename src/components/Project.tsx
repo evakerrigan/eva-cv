@@ -4,8 +4,11 @@ import otherProjectsData from '../data/otherProjects.json';
 import { Project as ProjectType } from '../data/types';
 import '../styles/projects.css';
 
-const workProjects: ProjectType[] = workProjectsData;
-const otherProjects: ProjectType[] = otherProjectsData;
+const visible = (projects: ProjectType[]) =>
+  projects.filter((project) => !project.hidden);
+
+const workProjects = visible(workProjectsData);
+const otherProjects = visible(otherProjectsData);
 
 export const Project = () => {
   return (
