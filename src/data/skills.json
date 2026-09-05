@@ -24,6 +24,18 @@
     "highlightedWords": ["Ant Design"]
   },
   {
+    "text": "Интеграция LLM в продукт: OpenAI-совместимый API, промпт-инжиниринг, структурированные ответы и контроль расхода токенов",
+    "highlightedWords": ["LLM", "OpenAI-совместимый API", "промпт-инжиниринг"]
+  },
+  {
+    "text": "Работа с рассуждающими моделями: настройка глубины рассуждений, отделение размышлений от ответа, диагностика лимитов",
+    "highlightedWords": ["рассуждающими моделями"]
+  },
+  {
+    "text": "Провайдеро-независимая архитектура ИИ-слоя: Groq, OpenRouter, локальная Ollama",
+    "highlightedWords": ["Groq", "OpenRouter", "Ollama"]
+  },
+  {
     "text": "Chakra UI и Tailwind CSS для стилизации",
     "highlightedWords": ["Chakra UI", "Tailwind CSS"]
   },
